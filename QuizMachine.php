@@ -42,7 +42,7 @@ HERE;
 						<p>
 							<fieldset>
 								<h2>Take a quiz</h2>
-								<form action="./quiz/showTest.php" method="post">
+								<form action="./quiz/takeQuiz.php" method="post">
 									<p><label>Quiz password:  </label><input type="password" name="showTestPassword"/></p>
 									<p><label>Quiz:  </label>$select</p>
 									<p><input type="submit" name="showTestSubmit" value="Take quiz"/></p>
@@ -71,7 +71,7 @@ HERE;
 						<p>
 							<fieldset>
 								<h2>Edit/create a quiz</h2>
-								<form method="showEdit.php" method="post">
+								<form action="./quiz/editQuiz.php" method="post">
 									<p><label>Admin password:  </label><input type="password" name="showEditPassword"/></p>
 									<p><label>Quiz:  </label>$select</p>
 									<p><input type="submit" name="showEditSubmit" value="Edit quiz"/></p>
@@ -99,7 +99,7 @@ HERE;
 						<p>
 							<fieldset>
 								<h2>View a quiz log</h2>
-								<form action="showLog.php" method="post">
+								<form action="./quiz/viewLog.php" method="post">
 									<p><label>Admin password:  </label><input type="password" name="showLogPassword"/></p>
 									<p><label>Quiz:  </label>$select</p>
 									<p><input type="submit" name="showLogSubmit" value="Show log"/></p>
